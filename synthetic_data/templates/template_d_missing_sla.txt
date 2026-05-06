@@ -1,0 +1,11 @@
+MASTER SERVICES AGREEMENT
+Parties: {company} and Procurement Co.
+Effective: {start_date}
+Contract Expiry: {expiry_date}
+Total Contract Value: {currency} {value:,}
+Auto-Renewal: {auto_renewal}
+Price Escalation: {escalation}
+[No SLA penalties specified in this agreement.]
+
+-- Template D: SLA field deliberately absent. Claude must return null for sla_penalty.
+-- Edge case: verifies the extraction prompt handles missing clauses gracefully.

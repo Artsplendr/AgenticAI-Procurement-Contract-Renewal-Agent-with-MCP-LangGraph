@@ -1,0 +1,6 @@
+FRAMEWORK AGREEMENT | Vendor: {company} | From {start_date} | To {expiry_date}
+| Value: {currency} {value:,} | Renewal: {auto_renewal} | Escalation: {escalation}
+| SLA: {sla}.
+
+-- Template C: Pipe-separated fields. Tests Claude's ability to parse
+-- non-tabular, inline clause structures.

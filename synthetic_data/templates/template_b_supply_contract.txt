@@ -1,0 +1,7 @@
+SUPPLY CONTRACT: Supplier {company}. Commencement Date: {start_date}.
+Termination Date: {expiry_date}. Agreed Value: {currency} {value:,}.
+Automatic Renewal Clause: {auto_renewal}. Price Adjustment Mechanism: {escalation}.
+Service Level Penalties: {sla}.
+
+-- Template B: Uses 'Termination Date' instead of 'Expiry Date'. Tests Claude's
+-- ability to map varied label language to the same structured field.

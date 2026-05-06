@@ -1,0 +1,5 @@
+SERVICE AGREEMENT dated {start_date} between {company} ('Vendor') and Procurement Co.
+Effective until {expiry_date}. Value: {currency} {value:,}. Auto-renewal: {auto_renewal}.
+Escalation: {escalation}. SLA: {sla}.
+
+-- Template A: Standard service agreement. All fields present. Claude baseline case.

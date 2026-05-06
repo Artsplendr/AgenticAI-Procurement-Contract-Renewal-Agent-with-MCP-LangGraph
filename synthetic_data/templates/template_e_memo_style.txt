@@ -1,0 +1,11 @@
+Vendor Engagement Memo
+Supplier: {company}
+Engagement Start: {start_date}
+Review Date: {expiry_date}
+Budget: {currency} {value:,}
+Note: Renewal terms to be renegotiated at expiry. Price clause: {escalation}.
+Performance terms: {sla}.
+
+-- Template E: Informal memo style. No explicit 'auto-renewal' field — Claude must
+-- return null for auto_renewal. Uses 'Review Date' instead of 'Expiry Date'.
+-- Most challenging extraction case.

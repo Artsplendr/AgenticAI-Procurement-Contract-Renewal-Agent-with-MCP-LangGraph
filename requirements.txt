@@ -1,0 +1,39 @@
+# Core
+anthropic>=0.25.0
+# langchain 1.x broke the 0.3.x API; pin the whole chain to 0.3.x
+langgraph>=0.2.0,<0.3.0
+langchain>=0.3.0,<1.0
+langchain-core>=0.3.0,<1.0
+langchain-anthropic>=0.3.0,<1.0
+
+# MCP
+mcp>=1.0.0
+
+# PDF generation (synthetic data)
+fpdf2>=2.7.0
+pypdf>=4.0.0
+
+# Fake data
+faker>=24.0.0
+
+# Database
+aiosqlite>=0.20.0
+
+# Web search
+serpapi>=0.1.5
+
+# Notifications
+
+# Dashboard
+streamlit>=1.35.0
+plotly>=5.20.0
+pandas>=2.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+schedule>=1.2.0
+
+# Dev / testing
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
