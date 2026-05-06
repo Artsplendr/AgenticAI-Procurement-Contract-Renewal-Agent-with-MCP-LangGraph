@@ -199,7 +199,7 @@ Tests cover:
 
 ---
 
-## How the Agentic Loop Works (In Plain English)
+## How the Agentic Loop Works
 
 Think of the agent as a procurement analyst who comes into the office every morning at 8am, does the following, and then sends you a summary:
 
