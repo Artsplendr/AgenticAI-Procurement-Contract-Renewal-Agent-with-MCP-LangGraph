@@ -1,6 +1,6 @@
 # Procurement Contract Intelligence & Renewal Agent
 
-> **Contract Intelligence & Renewal Agent** — an autonomous agent that reads procurement contracts, extracts key terms, monitors renewal deadlines, benchmarks market pricing, and drafts renegotiation memos — without any manual intervention.
+> **Procurement Contract Intelligence & Renewal Agent** — an autonomous agent that reads procurement contracts, extracts key terms, monitors renewal deadlines, benchmarks market pricing, and drafts renegotiation memos — without any manual intervention.
 
 ---
 
