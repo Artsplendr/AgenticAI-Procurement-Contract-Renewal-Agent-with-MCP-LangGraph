@@ -246,18 +246,7 @@ Next steps:
 
 ---
 
-## Roadmap / Extension Ideas
-
-- [ ] **PostgreSQL support** — swap SQLite for Postgres for multi-user environments
-- [ ] **Streamlit dashboard** — visual overview of all contracts, expiry timeline, risk heatmap
-- [ ] **Multi-language contracts** — Claude handles English, German, French natively
-- [ ] **ERP integration** — MCP server for SAP Ariba or Coupa to pull contracts automatically
-- [ ] **Clause risk scoring** — flag unfavourable clauses (one-sided liability, auto-renewal traps)
-- [ ] **A2A orchestration** — delegate to a specialist sub-agent for legal clause review
-
----
-
-## Key Concepts for Interviewers / Reviewers
+## Key Concepts
 
 **Why LangGraph?** Because the workflow is not a straight line. The `check_renewals` node may find zero contracts, in which case the graph exits early. The `alert` node only fires for urgent renewals. LangGraph's conditional edges model this cleanly — and its checkpointing means the state is never lost between runs.
 
